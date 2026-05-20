@@ -1,4 +1,7 @@
 node_modules
+front-end/node_modules
 *.log
 .env
 .env.local
+front-end/.env
+front-end/.env.local
