@@ -16,7 +16,7 @@ const contactLinks = [
   {
     label: 'Harlen539',
     href: 'https://github.com/Harlen539',
-    icon: FiGithub,
+    icon: FaGithub,
   },
   {
     label: 'Harlen Galdino',
