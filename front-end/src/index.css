@@ -1704,7 +1704,7 @@ body[data-theme='light'] .footer-bottom a:hover {
 
 @media (max-width: 768px) {
   :root {
-    --page-zoom: 1;
+    --page-zoom: 0.8;
   }
 
   .site-header {
@@ -1862,8 +1862,9 @@ body[data-theme='light'] .footer-bottom a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100svh - 120px);
-    padding: 80px 24px 120px;
+    min-height: auto;
+    height: calc(100svh - 210px);
+    padding: 66px 24px 100px;
     text-align: center;
   }
 
@@ -1986,6 +1987,10 @@ body[data-theme='light'] .footer-bottom a:hover {
 
   .scroll-indicator {
     bottom: 36px;
+  }
+
+  .section-pad.compact.about-section {
+    padding-top: 220px;
   }
 
   .hero-actions,
@@ -2118,8 +2123,9 @@ body[data-theme='light'] .footer-bottom a:hover {
   }
 
   .hero {
-    min-height: calc(100svh - 112px);
-    padding-top: 76px;
+    min-height: auto;
+    height: calc(100svh - 210px);
+    padding-top: 62px;
   }
 
   .status-badge {
