@@ -5,6 +5,7 @@ import FeaturedProject from './components/FeaturedProject.jsx';
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
+import ScrollIndicator from './components/ScrollIndicator.jsx';
 import SkillsMarquee from './components/SkillsMarquee.jsx';
 import { translations } from './i18n.js';
 
@@ -44,6 +45,7 @@ export default function App() {
         <Contact t={t} />
       </main>
       <Footer language={language} t={t} />
+      <ScrollIndicator />
     </>
   );
 }

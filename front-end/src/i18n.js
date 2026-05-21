@@ -28,6 +28,7 @@ export const translations = {
         'Full-stack Developer',
         'Sistemas e Monitoramento',
       ],
+      mobileRole: 'Desenvolvedor Web & Analista NOC',
       location: 'Paraíba, Brasil',
     },
     about: {
@@ -104,6 +105,7 @@ export const translations = {
         'Full-stack Developer',
         'Systems and Monitoring',
       ],
+      mobileRole: 'Web Developer & NOC Analyst',
       location: 'Paraíba, Brazil',
     },
     about: {
@@ -180,6 +182,7 @@ export const translations = {
         'Full-stack Developer',
         'Sistemas y Monitoreo',
       ],
+      mobileRole: 'Desarrollador Web & Analista NOC',
       location: 'Paraíba, Brasil',
     },
     about: {
