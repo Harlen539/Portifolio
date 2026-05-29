@@ -48,13 +48,24 @@ export const translations = {
       docsLabel: 'Abrir documentação oficial de',
     },
     project: {
-      title: 'Projeto em destaque',
-      previewLabel: 'Prévia real do BigSmoke Style',
-      previewAlt: 'Screenshot real da página inicial do BigSmoke Style',
-      badge: 'E-commerce streetwear',
-      description: 'E-commerce streetwear completo desenvolvido com React, Vite, Node.js, Express, Prisma e PostgreSQL. O projeto conta com vitrine de produtos, carrinho, painel administrativo, integração com pagamento, autenticação e estrutura preparada para produção.',
+      title: 'Projetos em destaque',
       viewSite: 'Ver site',
-      githubLabel: 'Ver GitHub do BigSmoke Style',
+      items: {
+        bigsmoke: {
+          previewLabel: 'Prévia real do BigSmoke Style',
+          previewAlt: 'Screenshot real da página inicial do BigSmoke Style',
+          badge: 'E-commerce streetwear',
+          description: 'E-commerce streetwear completo desenvolvido com React, Vite, Node.js, Express, Prisma e PostgreSQL. O projeto conta com vitrine de produtos, carrinho, painel administrativo, integração com pagamento, autenticação e estrutura preparada para produção.',
+          githubLabel: 'Ver GitHub do BigSmoke Style',
+        },
+        radja: {
+          previewLabel: 'Prévia real do Portfolio Radja Odonto',
+          previewAlt: 'Screenshot real da página inicial do Portfolio Radja Odonto',
+          badge: 'Portfólio odontológico',
+          description: 'Site institucional desenvolvido para Radja Rodrigues, estudante de Odontologia, com foco em apresentação profissional, procedimentos, casos clínicos e canais de contato. A interface combina React, Vite, JavaScript, CSS, Framer Motion e Lucide React para entregar uma experiência leve, elegante e responsiva.',
+          githubLabel: 'Ver GitHub do Portfolio Radja Odonto',
+        },
+      },
     },
     contact: {
       title: 'Contato',
@@ -125,13 +136,24 @@ export const translations = {
       docsLabel: 'Open official documentation for',
     },
     project: {
-      title: 'Featured project',
-      previewLabel: 'Real preview of BigSmoke Style',
-      previewAlt: 'Real screenshot of the BigSmoke Style home page',
-      badge: 'Streetwear e-commerce',
-      description: 'A complete streetwear e-commerce experience built with React, Vite, Node.js, Express, Prisma, and PostgreSQL. The project includes a product showcase, cart, admin panel, payment integration, authentication, and a production-ready structure.',
+      title: 'Featured projects',
       viewSite: 'View site',
-      githubLabel: 'View BigSmoke Style on GitHub',
+      items: {
+        bigsmoke: {
+          previewLabel: 'Real preview of BigSmoke Style',
+          previewAlt: 'Real screenshot of the BigSmoke Style home page',
+          badge: 'Streetwear e-commerce',
+          description: 'A complete streetwear e-commerce experience built with React, Vite, Node.js, Express, Prisma, and PostgreSQL. The project includes a product showcase, cart, admin panel, payment integration, authentication, and a production-ready structure.',
+          githubLabel: 'View BigSmoke Style on GitHub',
+        },
+        radja: {
+          previewLabel: 'Real preview of Portfolio Radja Odonto',
+          previewAlt: 'Real screenshot of the Portfolio Radja Odonto home page',
+          badge: 'Dental portfolio',
+          description: 'Institutional website built for Radja Rodrigues, a Dentistry student, focused on professional presentation, procedures, clinical cases, and contact channels. The interface combines React, Vite, JavaScript, CSS, Framer Motion, and Lucide React to deliver a light, elegant, responsive experience.',
+          githubLabel: 'View Portfolio Radja Odonto on GitHub',
+        },
+      },
     },
     contact: {
       title: 'Contact',
@@ -202,13 +224,24 @@ export const translations = {
       docsLabel: 'Abrir documentación oficial de',
     },
     project: {
-      title: 'Proyecto destacado',
-      previewLabel: 'Vista previa real de BigSmoke Style',
-      previewAlt: 'Captura real de la página inicial de BigSmoke Style',
-      badge: 'E-commerce streetwear',
-      description: 'E-commerce streetwear completo desarrollado con React, Vite, Node.js, Express, Prisma y PostgreSQL. El proyecto cuenta con vitrina de productos, carrito, panel administrativo, integración de pago, autenticación y estructura preparada para producción.',
+      title: 'Proyectos destacados',
       viewSite: 'Ver sitio',
-      githubLabel: 'Ver GitHub de BigSmoke Style',
+      items: {
+        bigsmoke: {
+          previewLabel: 'Vista previa real de BigSmoke Style',
+          previewAlt: 'Captura real de la página inicial de BigSmoke Style',
+          badge: 'E-commerce streetwear',
+          description: 'E-commerce streetwear completo desarrollado con React, Vite, Node.js, Express, Prisma y PostgreSQL. El proyecto cuenta con vitrina de productos, carrito, panel administrativo, integración de pago, autenticación y estructura preparada para producción.',
+          githubLabel: 'Ver GitHub de BigSmoke Style',
+        },
+        radja: {
+          previewLabel: 'Vista previa real de Portfolio Radja Odonto',
+          previewAlt: 'Captura real de la página inicial de Portfolio Radja Odonto',
+          badge: 'Portafolio odontológico',
+          description: 'Sitio institucional desarrollado para Radja Rodrigues, estudiante de Odontología, con foco en presentación profesional, procedimientos, casos clínicos y canales de contacto. La interfaz combina React, Vite, JavaScript, CSS, Framer Motion y Lucide React para entregar una experiencia ligera, elegante y responsiva.',
+          githubLabel: 'Ver GitHub de Portfolio Radja Odonto',
+        },
+      },
     },
     contact: {
       title: 'Contacto',

@@ -896,6 +896,11 @@ body[data-theme='light'] .skill-pill:focus-visible {
   margin-bottom: 42px;
 }
 
+.featured-projects {
+  display: grid;
+  gap: clamp(28px, 4vw, 44px);
+}
+
 .featured-card {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
